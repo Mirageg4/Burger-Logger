@@ -1,0 +1,48 @@
+html body {
+background-color: #FFD500;
+color: #000000;
+}
+
+.image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+    color: #175DFF;
+}
+
+h2 {
+    text-align: center;
+    color: #00B2FF;
+}
+
+li {
+    padding: 5px;
+    margin: 5px;
+    background-color: #FF8C00;
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .create-form {
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+  }
+  
+  /* Relative Length Units for Different Viewports */
+  .devour {
+    margin: 0vh 3vw 0vh 3vw;
+    padding: 0vh 1vw 0vh 1vw;
+   }
+
+  .form-group {
+    margin-bottom: 5px;
+  }
+  
+  .form-control {
+    text-align: center;
+  }  
