@@ -29,7 +29,7 @@ $(".devour").on("click", function(event) {
     };
 
     //PUT Request
-        $.ajax("/api/burgers", {
+        $.ajax("/api/burgers", +id, {
             type: "PUT",
             data: newBurgerState
         }).then(

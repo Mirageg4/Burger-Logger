@@ -44,7 +44,7 @@ const orm = {
     },
     
 create: function(table, cols, vals, cb){
-    val[1] = false;
+    vals[1] = false;
     let queryString = "INSERT INTO " + table;
     queryString += " (";
     queryString += cols.toString();
@@ -66,7 +66,7 @@ create: function(table, cols, vals, cb){
 update: function(table, condition, cb) {
     console.log(condition);
 
-    let queryString = "UPDATE" + table;
+    let queryString = "UPDATE " + table;
 
     queryString += " SET devoured = true";
     queryString += " WHERE ";
