@@ -1,0 +1,8 @@
+<li>
+    {{this.name}}
+    {{#unless devoured}}
+        <button type="button" class="btn btn-primary devour" data-id="{{id}}" data-newburger="{{devoured}}">
+        DEVOUR!
+        </button>
+        {{/unless}}
+</li>
