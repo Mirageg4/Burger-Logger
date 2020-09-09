@@ -17,8 +17,11 @@ router.get("/", function(req, res) {
     });
 });
 
+//Create Routes - GET
+
+
 //Create Routes - POST
-router.post("api/burgers", function(req, res) {
+router.post("/api/burgers", function(req, res) {
     burger.create(["name, devoured"],
 
     [req.body.name, req.body.devoured],
