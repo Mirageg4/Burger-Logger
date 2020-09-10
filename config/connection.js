@@ -12,11 +12,11 @@ if (process.env.JAWSDB_URL) {
 
         port: 3306 //process.env.DB_PORT,
 
-        user: //process.env.DB_USERNAME,
+        user: b1ga0o7vznp8erxr //process.env.DB_USERNAME,
 
-        password: b1ga0o7vznp8erxr //process.env.DB_PASSWORD,
+        password: u4ygws1wav7nwzhg //process.env.DB_PASSWORD,
         
-        database: o89ual6tmjsl4mbu//process.env.DB_NAME
+        database: o89ual6tmjsl4mbu //process.env.DB_NAME
     });
 }
 
