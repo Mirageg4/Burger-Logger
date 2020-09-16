@@ -18,7 +18,7 @@
 <h2>Pull Requests welcome for contribution</h2>
 <hr>
 <p>John Manouse</p>
-<p>Live Link: <a href="https://git.heroku.com/burger411.git"
+<p>Live Link: <a href="https://burger411.herokuapp.com/"
 >Burger-Logger Live Link</a></p>
 <p>Github: <a href="https://github.com/Mirageg4/Burger-Logger">Burger-Logger Repo</a></p>
 

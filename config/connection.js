@@ -8,15 +8,15 @@ if (process.env.JAWSDB_URL) {
 
 } else {
     connection = mysql.createConnection({
-        host: "localhost", //process.env.DB_HOST,
+        host: process.env.DB_HOST,
 
-        port: 3306, //process.env.DB_PORT,
+        port: process.env.DB_PORT,
 
-        user: "root", //process.env.DB_USERNAME,
+        user: process.env.DB_USERNAME,
 
-        password: "mirageg411", //process.env.DB_PASSWORD,
+        password: process.env.DB_PASSWORD,
         
-        database: "burgersDB" //process.env.DB_NAME
+        database: process.env.DB_NAME
     });
 }
 
